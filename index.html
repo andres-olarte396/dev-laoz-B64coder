@@ -12,27 +12,31 @@
   <body>
     <header>
       <h1>Base64 Encoder/Decoder</h1>
-      <p>Este ejemplo muestra los estilos básicos aplicados.</p>
+      <p>Codifica y decodifica texto a Base64.</p>
     </header>
     <main>
       <div class="container">
+        <fieldset>
+          <legend>Generador de Códigos QR</legend>
+          <p>Un generador de códigos QR simple y rápido, construido con HTML, CSS y JavaScript. Permite generar códigos QR a partir de una URL o texto ingresado por el usuario.</p>
+        <label for="inputText">Introduce el texto a codificar/decodificar:</label>
         <textarea
           id="inputText"
           placeholder="Introduce el texto aquí..."
           rows="6"
         ></textarea>
-
         <div class="buttons">
           <button id="encodeBtn">Codificar a Base64</button>
           <button id="decodeBtn">Decodificar desde Base64</button>
         </div>
-
         <textarea
           id="outputText"
           placeholder="Resultado..."
           rows="6"
           readonly
         ></textarea>
+        </fieldset>
+       
       </div>
     </main>
     <footer>
